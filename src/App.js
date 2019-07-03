@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import spongebob from './spongebob.gif';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React with me! Use your
+          <img src={spongebob}></img>
         </a>
       </header>
     </div>
